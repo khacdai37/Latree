@@ -1,8 +1,4 @@
-language: objective-c
-osx_image: osx_image: xcode12.2
-xcode_workspace: Latree.xcodeproj
-xcode_scheme: Latree
-xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
-before_install:
-  - bundle install
-  - bundle exec pod install --repo-update
+os: osx
+osx_image: xcode12.2
+language: swift
+script: xcodebuild clean build test -workspace Latree/Latree.xcworkspace -scheme "CI" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=14.4,name=iPhone 8 Plus" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
