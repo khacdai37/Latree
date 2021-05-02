@@ -1,0 +1,6 @@
+framework module Pods_Latree_LatreeUITests {
+  umbrella header "Pods-Latree-LatreeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

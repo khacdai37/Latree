@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		059A3FD0263D5011005CC50C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A3FCF263D5011005CC50C /* AppDelegate.swift */; };
-		059A3FD2263D5011005CC50C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A3FD1263D5011005CC50C /* SceneDelegate.swift */; };
 		059A3FD4263D5011005CC50C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A3FD3263D5011005CC50C /* ViewController.swift */; };
 		059A3FD7263D5011005CC50C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059A3FD5263D5011005CC50C /* Main.storyboard */; };
 		059A3FD9263D5014005CC50C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059A3FD8263D5014005CC50C /* Assets.xcassets */; };
 		059A3FDC263D5014005CC50C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059A3FDA263D5014005CC50C /* LaunchScreen.storyboard */; };
 		059A3FE7263D5014005CC50C /* LatreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A3FE6263D5014005CC50C /* LatreeTests.swift */; };
 		059A3FF2263D5014005CC50C /* LatreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A3FF1263D5014005CC50C /* LatreeUITests.swift */; };
+		717FD85F613D34D6AF5EFEE2 /* Pods_LatreeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336A42EAC41E8AB95A754FBE /* Pods_LatreeTests.framework */; };
+		BB7A8C32DFAC8196BF76ED65 /* Pods_Latree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E89D3F864E469E0C2757E4 /* Pods_Latree.framework */; };
+		E71A7F6EF65DDA9EE3FAB29F /* Pods_Latree_LatreeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B017797109086D180589C082 /* Pods_Latree_LatreeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		059A3FCC263D5011005CC50C /* Latree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Latree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059A3FCF263D5011005CC50C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		059A3FD1263D5011005CC50C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		059A3FD3263D5011005CC50C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		059A3FD6263D5011005CC50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		059A3FD8263D5014005CC50C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,15 @@
 		059A3FED263D5014005CC50C /* LatreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		059A3FF1263D5014005CC50C /* LatreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatreeUITests.swift; sourceTree = "<group>"; };
 		059A3FF3263D5014005CC50C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07423D380F44AF72B3ED4591 /* Pods-Latree-LatreeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latree-LatreeUITests.release.xcconfig"; path = "Target Support Files/Pods-Latree-LatreeUITests/Pods-Latree-LatreeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1CDF0D48B1A2F592ECAFAEF2 /* Pods-LatreeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatreeTests.release.xcconfig"; path = "Target Support Files/Pods-LatreeTests/Pods-LatreeTests.release.xcconfig"; sourceTree = "<group>"; };
+		30A4DF8FBFB6954217BCB573 /* Pods-LatreeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatreeTests.debug.xcconfig"; path = "Target Support Files/Pods-LatreeTests/Pods-LatreeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		336A42EAC41E8AB95A754FBE /* Pods_LatreeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LatreeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C8B6B4AD8818DFD25D30AF /* Pods-Latree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latree.release.xcconfig"; path = "Target Support Files/Pods-Latree/Pods-Latree.release.xcconfig"; sourceTree = "<group>"; };
+		52E89D3F864E469E0C2757E4 /* Pods_Latree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Latree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5733B8C7A0BE7E6884625FC5 /* Pods-Latree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latree.debug.xcconfig"; path = "Target Support Files/Pods-Latree/Pods-Latree.debug.xcconfig"; sourceTree = "<group>"; };
+		B017797109086D180589C082 /* Pods_Latree_LatreeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Latree_LatreeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB59312E7D7908F37DC65D9 /* Pods-Latree-LatreeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Latree-LatreeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Latree-LatreeUITests/Pods-Latree-LatreeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7A8C32DFAC8196BF76ED65 /* Pods_Latree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717FD85F613D34D6AF5EFEE2 /* Pods_LatreeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71A7F6EF65DDA9EE3FAB29F /* Pods_Latree_LatreeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				059A3FE5263D5014005CC50C /* LatreeTests */,
 				059A3FF0263D5014005CC50C /* LatreeUITests */,
 				059A3FCD263D5011005CC50C /* Products */,
+				21884F592DC8F9B4A3E4120D /* Pods */,
+				9D3CE7066E4931699F4B234A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				059A3FCF263D5011005CC50C /* AppDelegate.swift */,
-				059A3FD1263D5011005CC50C /* SceneDelegate.swift */,
 				059A3FD3263D5011005CC50C /* ViewController.swift */,
 				059A3FD5263D5011005CC50C /* Main.storyboard */,
 				059A3FD8263D5014005CC50C /* Assets.xcassets */,
@@ -128,6 +142,29 @@
 			path = LatreeUITests;
 			sourceTree = "<group>";
 		};
+		21884F592DC8F9B4A3E4120D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5733B8C7A0BE7E6884625FC5 /* Pods-Latree.debug.xcconfig */,
+				45C8B6B4AD8818DFD25D30AF /* Pods-Latree.release.xcconfig */,
+				EFB59312E7D7908F37DC65D9 /* Pods-Latree-LatreeUITests.debug.xcconfig */,
+				07423D380F44AF72B3ED4591 /* Pods-Latree-LatreeUITests.release.xcconfig */,
+				30A4DF8FBFB6954217BCB573 /* Pods-LatreeTests.debug.xcconfig */,
+				1CDF0D48B1A2F592ECAFAEF2 /* Pods-LatreeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D3CE7066E4931699F4B234A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52E89D3F864E469E0C2757E4 /* Pods_Latree.framework */,
+				B017797109086D180589C082 /* Pods_Latree_LatreeUITests.framework */,
+				336A42EAC41E8AB95A754FBE /* Pods_LatreeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 059A3FF6263D5014005CC50C /* Build configuration list for PBXNativeTarget "Latree" */;
 			buildPhases = (
+				063DCEE87117D69ECCBF80B9 /* [CP] Check Pods Manifest.lock */,
 				059A3FC8263D5011005CC50C /* Sources */,
 				059A3FC9263D5011005CC50C /* Frameworks */,
 				059A3FCA263D5011005CC50C /* Resources */,
@@ -152,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 059A3FF9263D5014005CC50C /* Build configuration list for PBXNativeTarget "LatreeTests" */;
 			buildPhases = (
+				FA134F496D0F0C0CCDCB18EF /* [CP] Check Pods Manifest.lock */,
 				059A3FDE263D5014005CC50C /* Sources */,
 				059A3FDF263D5014005CC50C /* Frameworks */,
 				059A3FE0263D5014005CC50C /* Resources */,
@@ -170,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 059A3FFC263D5014005CC50C /* Build configuration list for PBXNativeTarget "LatreeUITests" */;
 			buildPhases = (
+				3B8329B077B628BFE0F74F39 /* [CP] Check Pods Manifest.lock */,
 				059A3FE9263D5014005CC50C /* Sources */,
 				059A3FEA263D5014005CC50C /* Frameworks */,
 				059A3FEB263D5014005CC50C /* Resources */,
@@ -253,6 +293,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		063DCEE87117D69ECCBF80B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Latree-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B8329B077B628BFE0F74F39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Latree-LatreeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA134F496D0F0C0CCDCB18EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LatreeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		059A3FC8263D5011005CC50C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +369,6 @@
 			files = (
 				059A3FD4263D5011005CC50C /* ViewController.swift in Sources */,
 				059A3FD0263D5011005CC50C /* AppDelegate.swift in Sources */,
-				059A3FD2263D5011005CC50C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +541,13 @@
 		};
 		059A3FF7263D5014005CC50C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5733B8C7A0BE7E6884625FC5 /* Pods-Latree.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Latree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +561,13 @@
 		};
 		059A3FF8263D5014005CC50C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C8B6B4AD8818DFD25D30AF /* Pods-Latree.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Latree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +581,7 @@
 		};
 		059A3FFA263D5014005CC50C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A4DF8FBFB6954217BCB573 /* Pods-LatreeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +603,7 @@
 		};
 		059A3FFB263D5014005CC50C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDF0D48B1A2F592ECAFAEF2 /* Pods-LatreeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +625,7 @@
 		};
 		059A3FFD263D5014005CC50C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB59312E7D7908F37DC65D9 /* Pods-Latree-LatreeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +645,7 @@
 		};
 		059A3FFE263D5014005CC50C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07423D380F44AF72B3ED4591 /* Pods-Latree-LatreeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
